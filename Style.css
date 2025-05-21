@@ -31,11 +31,15 @@ body{
   padding: 1em 2em; 
 }
 .imb_big{
-   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+  width: 20em;
+  height: 20em;
+  object-fit: cover;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
 }
 .imb_mini {
     /* height: 60em; */
     width: 10em;
+    height: 10em;
     object-fit: cover;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
     
